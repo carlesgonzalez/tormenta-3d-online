@@ -19,6 +19,10 @@ app.get('/', (req, res) => {
 
 const players = new Map();
 
+app.get('/prueba', (req, res) => {
+  res.send('SERVIDOR NUEVO OK');
+});
+
 const names = [
   'Jugador 1',
   'Jugador 2',
